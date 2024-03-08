@@ -1,0 +1,188 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ul{
+    list-style-type: none;
+}
+.f-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #FF92BA;
+    padding: 18px;
+}
+.feature{
+    display: flex;
+}
+.feature .app{
+    display: flex;
+    margin-inline: 22px;
+}
+.feature .app i{
+    margin-inline: 8px;
+}
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+}
+.sec-nav ul li img{
+    width: 8%;
+    margin-left: 12px;
+}
+.sec-nav ul li a{
+    margin-inline: 22px;
+}
+.sec-nav .inputs{
+    display: flex;
+}
+.sec-nav .inputs button{
+    margin-inline: 22px;
+}
+.sec-nav .inputs input{
+    width: 220px;
+    background-color: #F4F4F4;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+}
+.sec-nav .inputs button{
+    width: 80px ;
+    height: 35px;
+    background-color: #E80071;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 8px;
+}
+.items ul li a{
+    margin-inline: 22px;
+    text-align: center;
+}
+.items ul li button{
+    width: 100px;
+    height: 34px;
+    background-color: #E80071;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+}
+.main-page img{
+    width: 100%;
+}
+.imgfill{
+    object-fit: cover !important;
+    width: 100%;
+    padding: 10px;
+}
+
+.pink{
+    width: 100%;
+}
+.pink h2{
+    text-align: center;
+    padding: 7px;
+
+}.brand h2{
+    text-align: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 33px;
+}
+.card img{
+    margin-inline: 22px;
+    width: 44%;
+}
+.brand h2{
+    text-align: center;
+    padding: 22px;
+}
+.topbrd{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.topbrd img{
+    margin-inline:22px;
+    width: 100%;
+    padding: 22px;
+}
+.only-nykaa h2{
+    text-align: center;
+    padding: 22px;
+}
+.only-nykaa .only{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.only img{
+    width: 44%;
+    margin-inline: 22px;
+}
+.makeup{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 42px;
+}
+.makeup img{
+    width: 22%;
+    margin-inline: 18px;
+}
+.special{
+    text-align: center;
+    padding: 22px;
+}
+.special .curation{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.curatio img{
+    margin-inline: 22px;
+    width: 44%;
+}
+.beauty h2{
+    text-align: center;
+    padding: 22px;
+}
+.beauty .advice{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}.advice img{
+    margin-inline: 22px;
+    width: 44%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #8C8D94;
+    color: white;
+}
+.footer .list{
+    flex-direction: column;
+}
+.footer .list ul li a{
+    font-weight: 600;
+    font-size: 13px;
+}
+.footer .list ul li h2{
+    font-size: 18px;
+}
